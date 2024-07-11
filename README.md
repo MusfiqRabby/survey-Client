@@ -1,7 +1,7 @@
 # Assignment Category: assignment12_category_0020
 
 
-## Programming hero Batch 9 assignment no 12 website name is: Survey Sky
+## Survey Sphere
 
 ## Website Live Link here Netlify:   [Click to see Netlify](https://surveysky.netlify.app/)
 

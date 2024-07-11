@@ -24,7 +24,7 @@ const Navbar = () => {
             <nav className="container mx-auto">
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                     <Link to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-                        <span className="self-center text-2xl font-bold whitespace-nowrap  ">SURVEY<span className="text-blue-800">SKY</span></span>
+                        <span className="self-center text-2xl font-bold whitespace-nowrap  ">SURVEY<span className="text-blue-800">SPHERE</span></span>
                     </Link>
 
                     <div className="flex items-center md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
