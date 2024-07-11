@@ -1,16 +1,10 @@
 # Assignment Category: assignment12_category_0020
 
-
 ## Survey Sphere
 
 ## Website Live Link here Netlify:   [Click to see Netlify](https://surveysky.netlify.app/)
 
 ## Website Live Link here Firebase:   [Click to see Firebase](https://surveysky-c627d.web.app/)
-
-## Website github client site code Link here : [Code Link](https://github.com/programming-hero-web-course1/b9a12-client-side-sujonahmedsr)
-
-## Website github server site code Link here : [Code Link](https://github.com/programming-hero-web-course1/b9a12-server-side-sujonahmedsr)
-
 
 
 # website feature 
