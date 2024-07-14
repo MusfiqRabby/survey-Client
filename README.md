@@ -1,11 +1,10 @@
 # Assignment Category: assignment12_category_0020
 
-## Survey Sphere
+## Survey Sky
 
 ## Website Live Link here Netlify:   [Click to see Netlify](https://surveysky.netlify.app/)
 
 ## Website Live Link here Firebase:   [Click to see Firebase](https://surveysky-c627d.web.app/)
-
 
 # website feature 
 
