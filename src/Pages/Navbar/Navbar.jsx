@@ -15,7 +15,6 @@ const Navbar = () => {
         logOut()
         toast.success('Log Out successfully')
     }
-
     const [Profile, setProfile] = useState(false)
     const [navOpen, setNavOpen] = useState(false)
 
