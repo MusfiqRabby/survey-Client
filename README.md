@@ -1,9 +1,16 @@
 
 ## Survey Sky
-
 ## Website Live Link here Firebase:(https://surveysky-c627d.web.app/)
+# website features
+- User Authentication with JWT: Secure login and registration using JWT tokens, stored in local storage for authentication across the application.
 
-# website feature 
+- Payment Integration: Integration of payment functionalities to allow users to purchase premium features or survey credits.
+
+- Role-Based Access Control: Implementation of a robust user management system with different roles (Admin, User) and permissions for accessing various features.
+
+- Admin Dashboard: A comprehensive admin dashboard for managing users, surveys, payments, and system settings.
+
+- Real-Time Notifications: Use of sweet alerts and toasts for CRUD operations, successful logins, and sign-ups, ensuring a smooth user experience without relying on default browser alerts.
 
 - Responsive Design: Ensuring that the application is fully responsive and works seamlessly on mobile, tablet, and desktop devices, including the admin dashboard.
 
