@@ -35,7 +35,7 @@ const Faq = () => {
                             <hr className="border-gray-200 " />
 
                             <p className="p-8 text-base ">
-                                Creating a survey on Surveysky is easy. Simply sign up for an account, navigate to the Create Survey section, and follow the intuitive steps to add questions, set up logic, and customize your survey’s design. You can preview and test your survey before distributing it to your audience.
+                                Creating a survey on Surveysky is easy. Simply sign up for an account, navigate to the Create Survey section, and follow the intuitive steps to add questions, set up logic, and customize your surveys design. You can preview and test your survey before distributing it to your audience.
                             </p>
                         </details>
                         <details>
@@ -67,7 +67,7 @@ const Faq = () => {
                             <hr className="border-gray-200 " />
 
                             <p className="p-8 text-base">
-                                Once your survey is ready, you can distribute it via email, social media, or a direct link. Surveysky also provides embed codes for adding surveys directly to your website or blog. We offer integration with popular tools to make distribution seamless.
+                                Once your survey is ready, you can distribute it via email, social media, or a direct link. Surveysky also provides embed codes for adding surveys directly to your website or blog.
                             </p>
                         </details>
                         <details>
@@ -99,7 +99,7 @@ const Faq = () => {
                             <hr className="border-gray-200 " />
 
                             <p className="p-8 text-base">
-                                Absolutely! Surveysky offers robust analytics tools to help you analyze your survey results. You can view summary statistics, filter responses, and generate detailed reports. Our visualizations make it easy to interpret the data and gain insights.
+                                Absolutely! Surveysky offers robust analytics tools to help you analyze your survey results. You can view summary statistics, filter responses, and generate detailed reports. Our visualizations make it easy to the data and gain insights.
                             </p>
                         </details>
                         <details>
@@ -122,7 +122,7 @@ const Faq = () => {
                 </div>
             </section>
         </div>
-    );
+    )
 };
 
 export default Faq;
