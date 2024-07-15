@@ -7,7 +7,7 @@ const AdminRoute = ({children}) => {
     const {user, loading} = useAuth()
     const [isAdmin, isAdminLoading] = useAdmin()
     if(loading || isAdminLoading){
-        return <p>loading....</p>
+        return <p>loading.....</p>
     }
     if(user && isAdmin){
         return children 
