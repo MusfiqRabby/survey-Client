@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       
-      <h1>Vite + React</h1>
+      <h1>Survey Sky</h1>
       <h1 className="text-3xl font-bold font-inter">
       Hello world!
     </h1>
@@ -14,4 +14,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
