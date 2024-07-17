@@ -90,7 +90,7 @@ const SurveyDetails = () => {
             });
             navigate('/payment')
         }
-    }
+    };
     return (
         <div className="py-28 container mx-auto px-4">
             <Helmet>
@@ -112,9 +112,7 @@ const SurveyDetails = () => {
                     <div className="flex items-center justify-between">
                         <h1>Category : <span className="font-semibold">{category}</span></h1>
                         <h1 className="flex gap-2 items-center text-2xl font-bold">
-                            {
-                                like ? <AiFillLike className="text-blue-800" /> : <SlLike className="text-xl cursor-pointer text-blue-800" onClick={handleVote} />
-                            }
+                            { like ? <AiFillLike className="text-blue-800" /> : <SlLike className="text-xl cursor-pointer text-blue-800" onClick={handleVote} />}
                             : <span className="font-semibold">{vote}</span></h1>
                     </div>
                     <div className="float-end">
@@ -135,7 +133,8 @@ const SurveyDetails = () => {
                         </div>
                         <div className="mt-4">
                             <textarea name="comment" className="block w-full px-4 py-2 text-gray-700 bg-white border rounded-lg dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-blue-300" placeholder="Add your comment">
-                            </textarea> <br />
+                            </textarea>
+                             <br />
                         </div>
                         <button className="ml-5 px-4 py-2 bg-blue-800 hover:bg-blue-700 text-white font-semibold rounded">Comment</button>
                     </form>
@@ -191,7 +190,8 @@ const SurveyDetails = () => {
                             </div>
                             <h1 className="text-2xl font-bold">{comment.title}</h1>
                             <p>{comment.comment}</p>
-                        </div>)
+                        </div>
+                        )
                     }
                 </div>
             </div>

@@ -28,7 +28,7 @@ const Survey = () => {
                             </div>
                         </Link>
                     )
-                }
+                };
             </div>
         </>
 
