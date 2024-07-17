@@ -10,8 +10,11 @@ import scrn2 from '../../assets/screenshot/2024-05-21-21-38-1.png'
 import scrn3 from '../../assets/screenshot/2024-05-21-21-38-2.png'
 import scrn4 from '../../assets/screenshot/2024-05-21-21-39.png'
 
+
+
 const image_hosting_key = '803136a7497d91a1a1a5d7c2e6acac5b';
 const image_hosting_api = `https://api.imgbb.com/1/upload?key=${image_hosting_key}`;
+
 
 const Surveyor = () => {
     const {user} = useAuth()
