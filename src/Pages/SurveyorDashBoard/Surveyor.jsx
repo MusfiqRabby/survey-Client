@@ -20,13 +20,15 @@ const Surveyor = () => {
     const axiosPublic = useAxiosPublic()
     const axiosSecure = useAxiosSecure()
     const onSubmit = async (data) => {
+        
         // image upload to imgbb and then get an url
+
         const imageFile = { image: data.image[0] }
         const res = await axiosPublic.post(image_hosting_api, imageFile, {
             headers: {
                 'content-type': 'multipart/form-data'
             }
-        })
+        });
         if (res.data.success) {
             const sureveyDetails = {
                 title: data.title,
@@ -70,7 +72,9 @@ const Surveyor = () => {
                             className="input input-bordered w-full" />
                     </div>
                     <div className="flex gap-6">
+
                         {/* category */}
+ 
                         <div className="form-control w-full my-6">
                             <label className="label">
                                 <span className="label-text">Category*</span>
@@ -108,7 +112,9 @@ const Surveyor = () => {
                             <DatePicker selected={startDate} name="date" className="block w-full px-5 py-2.5 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"></DatePicker>
                         </div>
                     </div>
+                
                     {/* recipe details */}
+                    
                     <div className="form-control">
                         <label className="label">
                             <span className="label-text">Survey Details</span>
@@ -133,7 +139,7 @@ const Surveyor = () => {
                     </button>
                 </form>
         </div>
-    );
+    )
 };
 
 export default Surveyor;

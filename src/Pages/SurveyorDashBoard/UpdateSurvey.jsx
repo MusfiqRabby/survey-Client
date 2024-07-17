@@ -33,11 +33,14 @@ const UpdateSurvey = () => {
                 ccreated_at: new Date().toLocaleDateString(),
                 image: res.data.data.display_url,
             }
-            //     // 
+            // 
             const surveyRes = await axiosSecure.patch(`/surveys/${_id}`, SurveyDetails);
             console.log(surveyRes.data)
-            if (surveyRes.data.modifiedCount > 0) {
+            if (surveyRes.data.modifiedCount > 0) 
+                {
+
                 // show success popup
+                
                 Swal.fire({
                     position: "top-end",
                     icon: "success",
@@ -55,7 +58,7 @@ const UpdateSurvey = () => {
     return (
         <div>
             <div className="text-center space-y-4">
-                <p>--Survey--</p>
+                <p>---Survey---</p>
                 <h1 className="text-3xl">Update Survey</h1>
             </div>
             <div>
@@ -73,7 +76,9 @@ const UpdateSurvey = () => {
                             className="input input-bordered w-full" />
                     </div>
                     <div className="flex gap-6">
+                        
                         {/* category */}
+
                         <div className="form-control w-full my-6">
                             <label className="label">
                                 <span className="label-text">Category*</span>
@@ -94,6 +99,7 @@ const UpdateSurvey = () => {
                         </div>
 
                         {/* price */}
+
                         <div className="form-control w-full my-6">
                             <label className="label">
                                 <span className="label-text">Votes*</span>
@@ -113,10 +119,10 @@ const UpdateSurvey = () => {
                             </label>
                             <DatePicker selected={startDate} readOnly name="created_at" className="block w-full px-5 py-2.5 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"></DatePicker>
                         </div>
-
                     </div>
                     
                     {/* recipe details */}
+                    
                     <div className="form-control">
                         <label className="label">
                             <span className="label-text">Survey Details</span>
