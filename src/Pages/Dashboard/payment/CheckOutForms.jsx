@@ -98,12 +98,12 @@ const CheckOutForms = () => {
             });
             navigate('/Dashboard')
         }
-
         axiosSecure.patch(`/users/${user?.email}`)
         .then(res => {
             console.log(res.data);
         })
     }
+
 
 
     return (
@@ -152,7 +152,7 @@ const CheckOutForms = () => {
             </button>
             <p className="text-red-700">{error}</p>
             {
-                transactionId && <p className="text-blue-800"> Transaction Id : {transactionId}</p>
+                transactionId && <p className="text-blue-800">Transaction Id : {transactionId}</p>
             }
         </form>
     );
