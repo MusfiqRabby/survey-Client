@@ -10,7 +10,7 @@ const Participated = () => {
             const res = await axiosSecure.get('/users')
             return res.data
         }
-    })
+    });
 
     if (isPending) return <p>Loading...</p>
     return (
@@ -56,7 +56,7 @@ const Participated = () => {
                                                 
                                             </td>
                                         </tr>)
-                                    }
+                                    };
                                 </tbody>
                             </table>
                         </div>
@@ -66,5 +66,7 @@ const Participated = () => {
         </div>
     );
 };
+
+
 
 export default Participated;

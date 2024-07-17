@@ -14,7 +14,7 @@ const AllUsers = () => {
         }
     })
 
-    if (isPending) return <p>Loading...</p>
+    if (isPending) return <p>Loading....</p>
 
     const handleAdmin = user =>{
         axiosSecure.patch(`/users/admin/${user._id}`)
@@ -30,7 +30,7 @@ const AllUsers = () => {
                   });
             }
         })
-    }
+    };
 
     const handleDelete = id => {
         Swal.fire({
@@ -56,7 +56,7 @@ const AllUsers = () => {
                     })
             }
         });
-    }
+    };
     return (
         <div>
             <div className="text-center space-y-4">
@@ -108,6 +108,7 @@ const AllUsers = () => {
                                         </th>
                                     </tr>)
                                 }
+                                
                             </tbody>
                         </table>
                     </div>

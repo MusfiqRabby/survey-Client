@@ -8,4 +8,6 @@ const ScrolTop = () => {
     }, [pathname])
 };
 
+
+
 export default ScrolTop;
