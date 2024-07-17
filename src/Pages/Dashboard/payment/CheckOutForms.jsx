@@ -17,6 +17,7 @@ const CheckOutForms = () => {
     const navigate = useNavigate()
 
 
+
     useEffect(() => {
         if (totalPrice > 0) {
             axiosSecure.post('/create-payment-intent', { price: totalPrice })
@@ -37,6 +38,7 @@ const CheckOutForms = () => {
         // Get a reference to a mounted CardElement. Elements knows how
         // to find your CardElement because there can only ever be one of
         // each type of element.
+
         const card = elements.getElement(CardElement)
 
         if (card == null) {
@@ -56,7 +58,7 @@ const CheckOutForms = () => {
             setError('')
         }
 
-        // confirm paymetn 
+        // confirm payment
         const { paymentIntent, error: confirmError } = await stripe.confirmCardPayment(clientSecret, {
             payment_method: {
                 card: card,
@@ -101,9 +103,9 @@ const CheckOutForms = () => {
         .then(res => {
             console.log(res.data);
         })
-
-        
     }
+
+
     return (
         <form onSubmit={handleSubmit} className="space-y-4 p-5 border hover:border-blue-300 duration-800">
             <div className="text-center space-y-3">

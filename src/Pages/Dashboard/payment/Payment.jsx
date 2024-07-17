@@ -15,7 +15,7 @@ const Payment = () => {
                 </Elements>
             </div>
         </div>
-    );
+    )
 };
 
 export default Payment;

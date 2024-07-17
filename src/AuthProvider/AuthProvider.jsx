@@ -13,8 +13,8 @@ const AuthProvider = ({ children }) => {
     const [loading, setLoading] = useState(true)
 
     const createUser = (email, password) =>{
-        setLoading(true)
-       return createUserWithEmailAndPassword(auth, email, password)
+    setLoading(true)
+    return createUserWithEmailAndPassword(auth, email, password)
     }
 
     const signInMethod = (email, password) => {
@@ -25,13 +25,11 @@ const AuthProvider = ({ children }) => {
     const logOut = () => {
         signOut(auth)
             .then(() => {
-                console.log('log Out success full');
-                
+                console.log('log Out success full');         
             })
             .catch((error) => {
                 console.log(error);
             });
-
     }
 
 
