@@ -44,7 +44,7 @@ const Prizing = () => {
                         <li>Add Contributor Seats</li>
                         <li>Add or reassign accounts at any time</li>
                         <li>Free integrations with popular collaboration apps</li>
-                        <li>50,000 responses per year**</li>
+                        <li>50,000 responses per year</li>
                         <li>24/7 expedited email support</li>
                         <li>Text analysis & statistical significance</li>
                         <li>Advanced analyze features</li>
@@ -86,7 +86,7 @@ const Prizing = () => {
                         <li>Add Contributor Seats</li>
                         <li>Add or reassign accounts at any time</li>
                         <li>Free integrations with popular collaboration apps</li>
-                        <li>100,000 responses per year**</li>
+                        <li>100,000 responses per year</li>
                         <li>Phone support and 24/7 email support</li>
                         <li>Text analysis & statistical significance</li>
                         <li>Advanced analyze features</li>
@@ -113,7 +113,7 @@ const Prizing = () => {
                         <li>Add Contributor Seats</li>
                         <li>Add or reassign accounts at any time</li>
                         <li>Free integrations with popular collaboration apps</li>
-                        <li>50,000 responses per year**</li>
+                        <li>50,000 responses per year</li>
                         <li>24/7 expedited email support</li>
                         <li>Text analysis & statistical significance</li>
                         <li>Advanced analyze features</li>
@@ -132,7 +132,7 @@ const Prizing = () => {
                 <h1>SurveySky Audience includes access to Paid Features</h1>
             </div>
         </div>
-    );
+    )
 };
 
 export default Prizing;

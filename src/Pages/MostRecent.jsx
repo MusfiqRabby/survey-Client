@@ -30,7 +30,7 @@ const MostRecent = () => {
                             </div>
                         </Link>
                     )
-                }
+                };
             </div>
         </div>
     );

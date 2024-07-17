@@ -26,12 +26,12 @@ const AllSurvey = () => {
     const handleSort = () => {
         const result = [...surveySort].sort((a, b) => b.votes - a.votes)
         setSurveySort(result)
-    }
+    };
 
     const hanldeCategory = btn => {
         const result = survey.filter(item => item.category === btn)
         setSurveySort(result)
-    }
+    };
     const hanldeAll = () => {
         setSurveySort(survey)
     }
